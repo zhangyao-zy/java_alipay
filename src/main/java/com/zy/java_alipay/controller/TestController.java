@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
     @GetMapping("/test")
-    public String test(@PathVariable String message){
+    public String test(String message){
         return message;
 
     }
