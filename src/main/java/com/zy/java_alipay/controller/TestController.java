@@ -13,5 +13,6 @@ public class TestController {
     @GetMapping("/test")
     public String test(@PathVariable String message){
         return message;
+
     }
 }
