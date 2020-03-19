@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String test(String message){
-        return message;
+        return 1+message;
 
     }
 }
